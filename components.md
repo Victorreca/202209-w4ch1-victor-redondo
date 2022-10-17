@@ -4,18 +4,11 @@
 
 ### Show data
 
-- A Header component
 - An Info component that is provided with total number of selected gentlemen
 - A Button component that is provided with:
   - "Marcar todos"
   - An action that selects all gentlemen
-- A GentlemenList component with a list of gentlemen
 
-## Header
-
-### Show data
-
-- The title "Señores que te apuntan con el dedo" inside a h1
 
 ## Info
 
@@ -33,22 +26,20 @@
 
 - Call the received action on click
 
-## GentlemenList
+## Gentleman
 
 ### Show data
 
-- A card for each gentleman of the received list of gentlemen
+The received gentleman's data:
 
-## GentlemanCard
-
-### Show data
-
-- The received gentleman's data:
-  - Its name inside a heading
-  - Its picture with an alt
-  - Its initial
+- Its name inside a heading
+- Its picture with an alt
+- Its initial
 - The tick icon when the gentleman is selected
+- The delete icon
 
-### Get actions:
+### Receive Actions
 
 - Toggle the selected status of the received gentleman on click
+
+
